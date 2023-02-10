@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyMassIndex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h2 id="head"><span id="f-col">B</span>ody <span id="f-col">M</span>ass <span id="f-col">I</span>ndex</h2>
+            <form action="">
+            <label for="height" id="height">Enter your Height(cm): </label>
+            <input type="text" id="height-val"><br>
+            <label for="weight" id="weight">Enter your Weight(kg): </label>
+            <input type="text" id="weight-val"><br>
+            <input type="checkbox" name="male" id="r-male">
+            <label for="male">Male</label>
+            <input type="checkbox" name="female" id="r-female">
+            <label for="female">Female</label><br>
+            <button id="btn" onclick="calculate()">CALCULATE</button>
+            <button id="btnn">CLEAR</button><br>
+            <p id="result"></p>
+            </form>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
